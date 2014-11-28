@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @Configuration
 @PropertySource("classpath:connect.properties")
-@ComponentScan(basePackages = {"com.web.services"})
+@ComponentScan(basePackages = {"com.web.services", "com.web.utils"})
 public class DomainConfiguration {
 //    @Bean
 //    public static HelloString helloString() {
