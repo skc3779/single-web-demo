@@ -1,0 +1,5 @@
+# Created by .gitignore support plugin (hsz.mobi)
+.gradle
+out
+.idea
+single-web-demo.iml
